@@ -1,0 +1,65 @@
+:root{
+    font-family: normal Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #181818;
+}
+
+/* corpo da calculadora */
+
+H1{
+    color: white;
+    font-family: var(font-family);
+}
+
+h1.titulo{
+    display: flex;
+    justify-content:center ;
+    position: relative;
+    top: 130px;
+    font-family: var(font-family);
+    font-size: 45px;
+    color: white;
+}
+
+.contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+form.inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+section.operadores{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+button{
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+button:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+#number_one, #number_two{
+    padding: 10px;
+    border: none;
+}
+
+#valor{
+    border: solid 1px;
+    background-color: white;
+    padding: 10px;
+}
