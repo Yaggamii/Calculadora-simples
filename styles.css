@@ -1,16 +1,10 @@
-:root{
-    font-family: normal Arial, Helvetica, sans-serif;
-}
-
 body{
     background-color: #181818;
 }
 
-/* corpo da calculadora */
-
 H1{
     color: white;
-    font-family: var(font-family);
+    font-family: normal Arial, Helvetica, sans-serif;
 }
 
 h1.titulo{
@@ -18,7 +12,7 @@ h1.titulo{
     justify-content:center ;
     position: relative;
     top: 130px;
-    font-family: var(font-family);
+    font-family: normal Arial, Helvetica, sans-serif;
     font-size: 45px;
     color: white;
 }
